@@ -1,0 +1,700 @@
+
+body{
+  background-color: #f1f2f4;
+ 
+}
+
+
+
+
+
+.ahp{
+
+  padding: 10px;
+  position: fixed;
+  top: 50%;
+  left: 30px;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+  transform: translateX(-50%) rotate(-90deg);
+  text-decoration: none;
+  color: black;
+  background-color: #ffffff;
+}
+.ahp1{
+
+  padding: 20px;
+  position: fixed;
+  top: 50%;
+  right: 30px;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+  
+  text-decoration: none;
+  color: black;
+  background-color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+/* index2 css start  */
+.imgindex{
+  display: flex;
+  flex-basis: 100%;
+  justify-content: center;
+}
+.margi{
+  margin-left: 10px;
+ }
+ .amrgi2{
+   padding-left: 20px;
+ }
+ /* index2 css end  */
+
+/* best salar section start  */
+.cs{
+  text-align: center;
+}
+.best-salar{
+  background-color: #0797d6;
+    padding-bottom: 8px;
+    margin-bottom: 25px;
+    margin:  3px;
+}
+.best-ss{
+  background-color: #f7941e;
+    padding-bottom: 8px;
+    margin-bottom: 25px;
+    margin:  3px;
+}
+.best-s{
+  background-color:#ab91eb;
+  padding-bottom: 8px;
+  margin-bottom: 2px;
+  margin:  3px;
+}
+
+
+.dropdown1{
+  border-radius: 20px;
+  font-size: 12px;
+  color: #6b4c4c;
+  padding: 8px 15px;
+  height: 34px;
+  text-align: center;
+  margin-left: 30px;
+  background-repeat: no-repeat;
+  background-position: 95% 55%;
+}
+
+
+.best-salar-img{
+text-align: center;
+  width: 100%;
+ 
+ 
+}
+.best-salar-img img{
+  font-size: 12px;
+}
+.b-heading{
+  background-color: #f5f3fa;
+  width: 94%;
+  margin: auto;
+}
+.bb-heading{
+  background-color: #f5f3fa;
+  width: 100%;
+}
+.b-content{
+  text-align: center;
+}
+.Bb-btn{
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+.B-btn{
+  background-color: rgb(255, 255, 255);
+  width: 94%;
+  margin: auto;
+ 
+}
+.best-seller-book-tabs{
+  border: none;
+  justify-content: center;
+  padding: 8px 0px 0px 0px;
+  
+}
+.wip{
+  background-color:#89c540 ;
+}
+.wip1{
+  background-color:#f7755e ;
+}
+/* .book-active{
+  color: #495057;
+    border-bottom: 2px solid #51c2fe;
+} */
+/* best salar section end  */
+
+
+
+
+/* button hover start  */
+.btn1 {
+    background-color: var(--background-color);
+    color: #7e7e7e;
+    padding: .5em 1em;
+    border: none;
+    outline: none;
+    position: relative;
+    cursor: pointer;
+   height: 60px;
+    margin: 10px auto;
+    width: 19.60%;
+  
+    --background-color: #ffffff;
+    --border-size: 2px;
+    --accent-color: #0AF;
+  }
+  .btn2{
+    font-size: 15px;
+  }
+  
+ 
+  .btn1.btn-background-slide::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background-color: var(--accent-color);
+  
+    transition: transform 300ms ease-in-out;
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+  .btn1.btn-background-slide:hover::before,
+  .btn1.btn-background-slide:focus::before {
+    transform: scaleX(1);
+  }
+  .btn1.btn-background-slide {
+    transition: color 300ms ease-in-out;
+    z-index: 1;
+  }
+  .btn1.btn-background-slide:hover,
+  .btn1.btn-background-slide:focus {
+    color: white;
+  }
+  /* button hover end  */
+  /* recently sold product css start  */
+  .bgimg{
+    background-image: url(../../img/pattern_6.png);
+}
+
+.book-wrapaper {
+    position: relative;
+    width: 100%;
+    height: 327px;
+   
+  }
+  .book-img-wrap {
+    position: relative;
+    margin-top: 20px;
+  }
+  .discount-badge {
+    position: absolute;
+    top: 0;
+    left: 8%;
+  }
+  .discount-badge b {
+    position: absolute;
+    top: 5px;
+    color: #000;
+    left: 20%;
+  }
+  .pre-order-badge{
+    position: absolute;
+    top: 80px;
+    left: 19%;
+  }
+  .serial-badge{
+    position: absolute;
+    top: -4px;
+    left: 35%;
+  }
+  .serial-badge b{
+    position: absolute;
+    top: 5px;
+    color: #000;
+    left: 20%;
+  }
+  .insideDisc-re {
+    position: absolute;
+    bottom: 0px;
+    right: 57px;
+    width: 40%;
+}
+.insideDisc {
+  position: absolute;
+  bottom: 0px;
+  right: 70px;
+  width: 30%;
+}
+
+.bookimg img {
+    width: 60%;
+    margin: auto;
+}
+.add-toCard-btn {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    padding: 0px 0px 6px 8px;
+    background: #ff9900;
+    display: none;
+    transform: translate(-50%);
+    width: 64%;
+    text-align: center;
+    
+   
+}
+.add-toCard-btn i{
+    color: rgb(245, 245, 245);
+}
+
+.book-title {
+    text-align: center;
+    padding: 15px 0px 3px 0px;
+}
+.book-orginal-price {
+    width: 50%;
+    float: left;
+}
+.book-orginal-price p {
+    padding-left: 35px;
+    font-weight: bold;
+}
+.currentPrice {
+    width: 50%;
+    float: left;
+}
+.currentPrice p {
+    padding-left: 8px;
+    font-weight: bold;
+}
+.book-price {
+    overflow: hidden;
+    text-align: center;
+}
+.view-dettails-wrap {
+    overflow: hidden;
+   
+}
+.view-dettails-wrap button {
+    padding: 6px 20px;
+    margin: auto;
+    background: #0a6ec0;
+    display: block;
+    width: 100%;
+    border: none;
+    font-weight: bold;
+    color: #fff;
+    display: none;
+}
+.book-wrapaper:hover .add-toCard-btn {
+    display: block;
+    transition: .15s ease-in-out;
+    text-decoration: none;
+  
+}
+.book-wrapaper:hover .view-dettails-wrap button {
+    display: block;
+    transition: .15s ease-in-out;
+}
+.book-wrapaper:hover .insideDisc {
+    display: none;
+    transition: .15s ease-in-out;
+}
+.book-wrapaper:hover .book-img-wrap img  {
+    opacity: .5;
+}
+.book-wrapaper:hover .discount-badge  {
+    opacity: .5;
+}
+.book-wrapaper:hover {
+    background: #FAF9F2;
+    
+    height: 84%;
+    overflow: hidden;
+    box-shadow: inset 0px 0px 7px 0px #cdcdcd;
+    transition: .15s ease-in-out;
+}
+.ProductBancground {
+    background: -webkit-linear-gradient(#ffffff, #ffffff), url(../images/pattern_6.png);
+    border-bottom: 2px solid #ddd;
+
+    box-shadow: 0px 4px 6px -3px #9c9c9c;
+}
+.ProductSetcionTitle h3 {
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: lato;
+}
+.section-viewallbtn {
+    padding: 10px 40px;
+    float: right;
+}
+.book-wrapaper:hover .product-cart-text {
+    opacity: 0.2;
+   
+}
+.product-cart-text{
+  color: black;
+}
+
+.slick-prev.slick-arrow {
+    width: 30px;
+    height: 73px;
+    background: #FFFFFF;
+   
+    z-index: 111;
+    border: solid 1px #fff;
+    box-shadow: 9px 3px 36px -8px #000;
+    position: absolute;
+    left: 1%;
+  }
+  .slick-prev.slick-arrow:before {
+    color: #000;
+  }
+  .slick-next.slick-arrow {
+    width: 30px;
+    height: 73px;
+    background: #FFFFFF;
+    z-index: 111;
+    border: solid 1px #fff;
+    box-shadow: 9px 3px 36px -8px #000;
+    position: absolute;
+    right: 1%;
+  }
+  .slick-next.slick-arrow:before {
+    color: #000;
+  }
+
+  /* recentlysold produc css edn  */
+
+  /* icone span customize start */
+  .icone-div{
+    display: flex;
+    flex-basis: 16%;
+    font-size: 16px;
+    background-color: #ffffff;
+    margin: auto;
+    height: 200px;
+    }
+    .icone-size{
+    margin: 5px;
+    text-align: center;
+    margin: auto;
+    }
+    .icone-size:hover{
+        color:#0397d3;
+    }
+    .icone-span{
+        font-size: 50px;
+        /* color: #afc1e0; */
+    }
+    .icone-spa:hover{
+      color:#0397d3;
+    }
+    .h3bg{
+      background-color: #ffffff;
+  }
+   /* icone span customize end */
+   /* index2 css start  */
+.index2{
+  display: flex;
+  flex-basis: 100%;
+  justify-content: center;
+ 
+}
+.c6{
+  margin: 10px;
+}
+   /* index2 css end  */
+   /* writer start  */
+   .writer:hover{
+color: #007bff;
+   }
+    /* writer end  */
+    /* subscription start  */
+  .sub{
+      background-color: #FFFFFF;
+      padding: 20px 20px 20px 20px;
+      margin-bottom: 20px;
+      box-shadow: 0px 4px 6px -3px #9c9c9c;
+      border-radius: 3px;
+  }
+  
+  .sub h1 {
+      font-size: 145%;
+      text-align: center;
+      color: #333333;
+      line-height: 130%;
+      word-spacing: 3px;
+      margin-bottom: 25px;
+  }
+  
+  .sub h1 span {
+      font-size: 120%;
+      margin: 0 6px;
+      color: #33c24d;
+  }
+  
+  .sub .male {
+      color: #0397d3 !important;
+      border-color: #0397d3;
+      font-size: 105%;
+      border-radius: 2px 2px 2px 2px !important;
+      box-shadow: 0px 3px 6px -4px #a2a2a2;
+      padding: 10px 10px;
+      margin: 0 9px;
+  }
+  
+  .sub .male:hover{
+    color: #FFFFFF !important;
+      background-color: #0397d3 !important;
+      box-shadow: none !important;
+      border-color: #8bc4ea !important;
+  }
+  
+  .sub .female {
+      color: #E26A6A !important;
+      border-color: #E26A6A;
+      font-size: 105%;
+      border-radius: 2px 2px 2px 2px !important;
+      box-shadow: 0px 3px 6px -4px #a2a2a2;
+      color: #E26A6A;
+      border-color: #E26A6A;
+      padding: 10px 10px;
+      margin: 0 10px;
+  }
+  
+  .sub .female:hover {
+      color: #FFFFFF !important;
+      background-color: #E26A6A !important;
+      box-shadow: none !important;
+      border-color: #eda3a3 !important;
+  }
+      /* subscription end  */
+
+
+      /* FOOTER CSS START  */
+
+      .social-icon img{
+        width: auto;
+        height: 24px;
+        }
+        .social-icon li{
+            float: left;
+            list-style-type: none;
+            margin-right: 3%;
+            border-radius: 2px;
+        }
+        
+        .verfied{
+            background-image: url(img/verified\ sign.png);
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-position: 0 -28px;
+            
+        }
+        .verfied{
+            height: 19px;
+            margin-left: 2px;
+            vertical-align: -3px;
+            width: 19px;
+        }
+        .lil ul li {
+            list-style:none;
+            list-style-type: circle;
+            
+        }
+         
+        .dmoney{
+            width: 120px;
+            height: 25px;
+        }
+        .rocket{
+            width: 51px;
+            height: 26px;
+        }
+        .city-bank{
+            width: 62px;
+            height: 35px;
+        }
+        .cod{
+            width: 32px;
+            height: 32px;
+        }
+        .bkash{
+            width: 51px;
+            height: 23px;
+        }
+        .nagad{
+            width: 51px;
+            height: 23px; 
+        }
+        .master-card{
+        width: 51px;
+        height: 31px;
+        }
+        .visa{
+            width: 51px;
+            height: 17px;
+        }
+        .amex{
+            width: 51px;
+        height: 32px;
+        }
+        .banking{
+            margin-left: 200px;
+        }
+        .banking img{
+            margin-left: 5px;
+        }
+        .company-summery-row {
+            border-top: 1px solid #cdcdcd;
+            margin-top: 20px;
+        }
+        .large-footer {
+            background-color: #FFFFFF;
+            padding: 30px 0 0 0;
+            color: #333333;
+        }
+        .large-footer .copyright {
+            margin-top: 15px;
+            padding: 15px 0;
+            background-color: #f1f2f4;
+            font-size: 90%
+        }
+        .col{
+            flex-grow: 1;
+            max-width: 100%;
+            flex-basis: 0; 
+        }
+        
+        .col-lg-4 h6{
+            margin-left: 8%;
+            margin-top: 10px;
+        
+        }
+        .col-lg-4 ul li{
+            font-size: .7rem;
+        }
+        .back{
+            position:absolute;
+        }
+        .roko{
+            position: relative;
+            overflow: hidden;
+        }
+        .rokoma img{
+            margin-left: 7px;
+            margin-top: 7px;
+        }
+        .rokocom a{
+            text-decoration: none;
+            color: #FFFFFF;
+            margin-top: 20px;
+            margin-left: 5px;
+            font-weight: bold;
+            text-shadow: 0 5px 8px rgb(0 0 0 / 90%);
+            cursor: pointer;
+            font-family: Helvetica, Arial, sans-serif;
+        
+        }
+        .fa-check-circle{
+            background:#5890FF;
+            border-radius: 50%;
+        }
+        .img1{
+            margin-top:14px ;
+        }
+        .company-summery p{
+            text-align: center;
+            font-size: .86rem;
+        }
+        .icon-rok{
+            margin-top: 100px;
+            z-index: 99999999;
+            
+        }
+        .icon-rok h5{
+            margin-left: 5%;
+            color: #333333;
+            margin-top: 5px;
+        }
+        .app img{
+            width: 125px;
+            margin-top: 5px;
+        }
+        .footer-basic-info p{
+        margin-top: 20px;
+        
+        }
+        .footer-basic-info em{
+            color: #333333;
+            margin-left: 5px;
+            font-size: 14px;
+            font-style: normal;
+            box-sizing: border-box;
+            width: 100px;
+        }
+        .Hotline{
+            margin-top: 30px;
+        }
+        .corporate{
+            margin-top: 25px;
+            
+        }
+        .di{
+            margin-left: 5px;
+            
+            width: 100px;
+            float: right;
+            font-size: 1rem;
+        }
+        .email a{
+            color: #333333;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+        .hom1{
+            margin-top: 10px;
+        }
+        .hom1 img{
+            margin-top: 20px;
+        }
+        .corporate1{
+            margin-top: -15px;
+        }
+        .address{
+            margin-left: 10px;
+            margin-top: 20px;
+        }
+        .stay{
+            margin-top: 30px;
+        }
+        .banking{
+            margin-top: 25px;
+        }
+        
+      /* FOOTER CSS end  */
